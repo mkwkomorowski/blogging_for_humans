@@ -12,8 +12,8 @@ log = logging.getLogger(__name__)
 
 
 class BloggingForHumansConfig(AppConfig):
-    name = "my_app"
-    label = "my_app"
+    name = "blogging_for_humans"
+    label = "blogging_for_humans"
     verbose_name = "My Open edX Plugin"
 
     # See: https://edx.readthedocs.io/projects/edx-django-utils/en/latest/edx_django_utils.plugins.html
@@ -21,7 +21,7 @@ class BloggingForHumansConfig(AppConfig):
         PluginURLs.CONFIG: {
             ProjectType.LMS: {
                 PluginURLs.NAMESPACE: name,
-                PluginURLs.REGEX: "^my-app/",
+                PluginURLs.REGEX: "^blogging_for_humans/",
                 PluginURLs.RELATIVE_PATH: "urls",
             }
         },
