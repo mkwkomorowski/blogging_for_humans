@@ -5,7 +5,7 @@ Database models for blogging_for_humans.
 from model_utils.models import TimeStampedModel
 
 
-class Model_01(TimeStampedModel):
+class Model01(TimeStampedModel):
     """
     TODO: replace with a brief description of the model.
 
@@ -24,7 +24,7 @@ class Model_01(TimeStampedModel):
         return '<Model_01, ID: {}>'.format(self.id)
 
 
-class Model_02(TimeStampedModel):
+class Model02(TimeStampedModel):
     """
     TODO: replace with a brief description of the model.
 
