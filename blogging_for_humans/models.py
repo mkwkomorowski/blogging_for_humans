@@ -6,6 +6,7 @@ from model_utils.models import TimeStampedModel
 
 
 class Model01(TimeStampedModel):
+    field_01 = models.CharField(max_length=255)
     """
     TODO: replace with a brief description of the model.
 
@@ -32,6 +33,7 @@ class Model02(TimeStampedModel):
     information, see OEP-30:
     https://open-edx-proposals.readthedocs.io/en/latest/oep-0030-arch-pii-markup-and-auditing.html
     """
+    field_01 = models.CharField(max_length=255)
 
     # TODO: add field definitions
 
