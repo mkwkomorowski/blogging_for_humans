@@ -1,7 +1,7 @@
 """
 Database models for blogging_for_humans.
 """
-# from django.db import models
+from django.db import models
 from model_utils.models import TimeStampedModel
 
 
