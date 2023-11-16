@@ -47,13 +47,6 @@ class BloggingForHumansConfig(AppConfig):
                 PluginURLs.RELATIVE_PATH: "urls",
             }
         },
-        PluginSettings.CONFIG: {
-            ProjectType.LMS: {
-                SettingsType.PRODUCTION: {PluginSettings.RELATIVE_PATH: "settings.production"},
-                SettingsType.COMMON: {PluginSettings.RELATIVE_PATH: "settings.common"},
-                SettingsType.DEVSTACK: {PluginSettings.RELATIVE_PATH: "settings.devstack"},
-            }
-        },
     }
     
     def ready(self):
