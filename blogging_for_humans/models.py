@@ -5,7 +5,8 @@ from django.db import models
 from model_utils.models import TimeStampedModel
 
 
-class Model01(TimeStampedModel):
+# class Model01(TimeStampedModel):
+class Model01(models.Model):
     field_01 = models.CharField(max_length=255)
     """
     TODO: replace with a brief description of the model.
@@ -25,7 +26,8 @@ class Model01(TimeStampedModel):
         return '<Model_01, ID: {}>'.format(self.id)
 
 
-class Model02(TimeStampedModel):
+# class Model02(TimeStampedModel):
+class Model02((models.Model):
     """
     TODO: replace with a brief description of the model.
 
