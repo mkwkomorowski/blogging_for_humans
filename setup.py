@@ -159,7 +159,7 @@ setup(
     ],
     entry_points={
         "lms.djangoapp": [
-            "bloggint_for_humans = bloggint_for_humans.apps:BloggingForHumansConfig",
+            "blogging_for_humans = blogging_for_humans.apps:BloggingForHumansConfig",
         ],
     },
 )
