@@ -23,7 +23,7 @@ class Model01(models.Model):
         Get a string representation of this model instance.
         """
         # TODO: return a string appropriate for the data fields
-        return '<Model_01, ID: {}>'.format(self.id)
+        return '<Model_01, ID: {}>'.format(self.field_01)
 
 
 # class Model02(TimeStampedModel):
@@ -44,4 +44,4 @@ class Model02(models.Model):
         Get a string representation of this model instance.
         """
         # TODO: return a string appropriate for the data fields
-        return '<Model_02, ID: {}>'.format(self.id)
+        return '<Model_02, ID: {}>'.format(self.field_01)
