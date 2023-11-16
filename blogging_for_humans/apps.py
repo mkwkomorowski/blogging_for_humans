@@ -29,6 +29,7 @@ class BloggingForHumansConfig(AppConfig):
             ProjectType.LMS: {
                 SettingsType.PRODUCTION: {PluginSettings.RELATIVE_PATH: "settings.production"},
                 SettingsType.COMMON: {PluginSettings.RELATIVE_PATH: "settings.common"},
+                SettingsType.DEVSTACK: {PluginSettings.RELATIVE_PATH: "settings.devstack"},
             }
         },
     }
