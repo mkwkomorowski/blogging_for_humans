@@ -27,7 +27,7 @@ class Model01(models.Model):
 
 
 # class Model02(TimeStampedModel):
-class Model02((models.Model):
+class Model02(models.Model):
     """
     TODO: replace with a brief description of the model.
 
