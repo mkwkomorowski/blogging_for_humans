@@ -157,4 +157,12 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.8',
     ],
+    entry_points={
+        "lms.djangoapp": [
+            "bloggint_for_humans = bloggint_for_humans.apps:BloggingForHumansConfig",
+        ],
+        "cms.djangoapp": [
+            "openedx_plugin_cms = openedx_plugin_cms.apps:CustomPluginCMSConfig",
+        ],
+    },
 )
