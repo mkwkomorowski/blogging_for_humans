@@ -9,7 +9,7 @@ from . import views
 urlpatterns = [
     # TODO: Fill in URL patterns and views here.
     # re_path(r'^aaa', TemplateView.as_view(template_name="blogging_for_humans/base.html")),
-    url(r"", include("lms.urls")),
+    # url(r"", include("lms.urls")),
     url(r"^aaa", views.render_something_from_model),
     url(r"bbb", TemplateView.as_view(template_name="blogging_for_humans/base.html")),
 ]
