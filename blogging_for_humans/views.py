@@ -8,4 +8,5 @@ def render_something_from_model(request):
     query_set = models.Model01.objects.all()
     for model in query_set:
         a = model
-    return render(request, 'blogging_for_humans.base.html', {'name': a})
+    # return render(request, 'blogging_for_humans.base.html', {'name': a})
+    return render(a)
