@@ -1,5 +1,6 @@
 from . import models
 from django.shortcuts import render
+from django.http import HttpResponse
 
 
 def render_something_from_model(request):
@@ -9,4 +10,4 @@ def render_something_from_model(request):
     for model in query_set:
         a = model
     # return render(request, 'blogging_for_humans.base.html', {'name': a})
-    return a
+    return HttpResponse("hello Maciek")
