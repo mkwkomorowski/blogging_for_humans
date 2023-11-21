@@ -20,6 +20,7 @@ class Migration(migrations.Migration):
                         verbose_name="ID",
                     ),
                 ),
+                ("model01_id", models.CharField(max_length=250)),
                 ("field_01 ", models.CharField(max_length=255)),
             ],
         ),
