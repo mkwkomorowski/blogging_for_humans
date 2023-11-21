@@ -15,6 +15,6 @@ def render_something_from_model(request):
     print('bbbbbbbbbbbbbbbbb')
     print(type(a))
     print('ccccccccccccccccc')
-    print(type(str(a))
+    print(type(str(a)))
     print('ddddddddddddddddd')
     return HttpResponse("hello Maciekk5")
