@@ -10,5 +10,5 @@ def render_something_from_model(request):
     for model in query_set:
         a = model
     # return render(request, 'blogging_for_humans.base.html', {'name': a})
-    # comment
+    print('aaaaaaaaaaaaaaaaa')
     return HttpResponse("hello Maciekk3")
