@@ -7,7 +7,6 @@ from model_utils.models import TimeStampedModel
 
 # class Model01(TimeStampedModel):
 class Model01(models.Model):
-    id = models.AutoField(primary_key=True)
     field_01 = models.CharField(max_length=255)
     """
     TODO: replace with a brief description of the model.
