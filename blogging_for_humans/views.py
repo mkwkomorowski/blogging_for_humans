@@ -11,4 +11,5 @@ def render_something_from_model(request):
         a = model
     # return render(request, 'blogging_for_humans.base.html', {'name': a})
     print('aaaaaaaaaaaaaaaaa')
+    print(a)
     return HttpResponse("hello Maciekk4")
