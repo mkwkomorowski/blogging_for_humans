@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
                     ),
                 ),
                 ("model01_id", models.CharField(max_length=250)),
-                ("field_01 ", models.CharField(max_length=255)),
+                ("field_01", models.CharField(max_length=255)),
             ],
         ),
     ]
